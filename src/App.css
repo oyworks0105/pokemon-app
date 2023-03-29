@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+.pokemonCardcontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn button {
+  padding: 13px 32px;
+  background-color: #FFFFFF;
+  border: none;
+  box-shadow: 2px 8px 21px -2px #de9400;
+  border-radius: 5px;
+  color: #f6bd20;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-weight: bold;
+}
+
+btn button:hover {
+  transform: translateY(5px);
+  box-shadow: none;
+}
